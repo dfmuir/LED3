@@ -1,0 +1,152 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXFileReference section */
+		3B026514165C342A0069CE36 /* spi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spi.c; sourceTree = "<group>"; };
+		3B10DB8A165FF13000EB3D03 /* spi2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spi2.c; sourceTree = "<group>"; };
+		3B10DB8C165FF2E900EB3D03 /* main2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main2.c; sourceTree = "<group>"; };
+		3B72B8A416609318005AEA91 /* main_working.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main_working.c; sourceTree = "<group>"; };
+		3B72B8AB1664780E005AEA91 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3B72B8AC166499E7005AEA91 /* init.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = init.c; sourceTree = "<group>"; };
+		3B72B8AD16649BD7005AEA91 /* refresh.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = refresh.c; sourceTree = "<group>"; };
+		3B72B8AE16649EC6005AEA91 /* interrupts.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = interrupts.c; sourceTree = "<group>"; };
+		3B72B8B016649FEE005AEA91 /* frames.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = frames.c; sourceTree = "<group>"; };
+		3B72B8B31664A364005AEA91 /* buffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = buffer.c; sourceTree = "<group>"; };
+		3B72B8B51664AA48005AEA91 /* animator.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = animator.c; sourceTree = "<group>"; };
+		3B72B8B61664AF50005AEA91 /* colorType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colorType.h; sourceTree = "<group>"; };
+		3B72B8B71664B62C005AEA91 /* state.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = state.h; sourceTree = "<group>"; };
+		3BE9495B16653DC30077FD80 /* animations.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = animations.c; sourceTree = "<group>"; };
+		3BF165061665DE48007C950F /* launcher.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = launcher.c; sourceTree = "<group>"; };
+		4079525E0CEA38CC00E202DC /* main_matlab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main_matlab.c; sourceTree = "<group>"; };
+		4079525F0CEA38CC00E202DC /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3B72B8AF16649F7F005AEA91 /* Old */ = {
+			isa = PBXGroup;
+			children = (
+				4079525E0CEA38CC00E202DC /* main_matlab.c */,
+				3B72B8A416609318005AEA91 /* main_working.c */,
+				3B10DB8C165FF2E900EB3D03 /* main2.c */,
+				3B026514165C342A0069CE36 /* spi.c */,
+				3B10DB8A165FF13000EB3D03 /* spi2.c */,
+			);
+			name = Old;
+			sourceTree = "<group>";
+		};
+		3BF165051665D079007C950F /* animation_engine */ = {
+			isa = PBXGroup;
+			children = (
+				3B72B8B51664AA48005AEA91 /* animator.c */,
+				3B72B8B71664B62C005AEA91 /* state.h */,
+				3B72B8B31664A364005AEA91 /* buffer.c */,
+			);
+			name = animation_engine;
+			sourceTree = "<group>";
+		};
+		4079523B0CEA382200E202DC = {
+			isa = PBXGroup;
+			children = (
+				4079525D0CEA38CC00E202DC /* firmware */,
+			);
+			sourceTree = "<group>";
+		};
+		4079525D0CEA38CC00E202DC /* firmware */ = {
+			isa = PBXGroup;
+			children = (
+				3BE9495B16653DC30077FD80 /* animations.c */,
+				3BF165061665DE48007C950F /* launcher.c */,
+				3B72B8B016649FEE005AEA91 /* frames.c */,
+				3BF165051665D079007C950F /* animation_engine */,
+				4079525F0CEA38CC00E202DC /* Makefile */,
+				3B72B8AB1664780E005AEA91 /* main.c */,
+				3B72B8AC166499E7005AEA91 /* init.c */,
+				3B72B8AD16649BD7005AEA91 /* refresh.c */,
+				3B72B8AE16649EC6005AEA91 /* interrupts.c */,
+				3B72B8B61664AF50005AEA91 /* colorType.h */,
+				3B72B8AF16649F7F005AEA91 /* Old */,
+			);
+			path = firmware;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		407952600CEA391500E202DC /* firmware */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = $ACTION;
+			buildConfigurationList = 407952610CEA393300E202DC /* Build configuration list for PBXLegacyTarget "firmware" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = firmware;
+			dependencies = (
+			);
+			name = firmware;
+			passBuildSettingsInEnvironment = 1;
+			productName = "Build All";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		4079523D0CEA382200E202DC /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4079523E0CEA382200E202DC /* Build configuration list for PBXProject "LED3-AVR" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4079523B0CEA382200E202DC;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				407952600CEA391500E202DC /* firmware */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		407952400CEA382200E202DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		407952630CEA393300E202DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PATH = "$(PATH):/usr/local/CrossPack-AVR/bin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4079523E0CEA382200E202DC /* Build configuration list for PBXProject "LED3-AVR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				407952400CEA382200E202DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		407952610CEA393300E202DC /* Build configuration list for PBXLegacyTarget "firmware" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				407952630CEA393300E202DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4079523D0CEA382200E202DC /* Project object */;
+}
